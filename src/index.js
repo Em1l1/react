@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import './global.css';
-import Badge from './components/Badge';
+// import Badge from './components/Badge';
+import BadgeNew from './pages/BadgeNew';
 
-// const name = 'Platzi';
-// const element = <h1>Hello, Platzi Badges!</h1>;
-// const jsx = <h1>Hello, {name} Badges!</h1>
-// const element = React.createElement('a', { href: 'https://platzi.com'}, `Ir a ${name}...`)
-
-// const container = document.getElementById('app');
-
-// ReactDOM.render(__qué__, __dónde__);
 const container = document.getElementById('app');
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(
+  <BadgeNew />,
+  // <Badge
+  //
+  //   firstName="Victor"
+  //   lastName="Juarez"
+  //   avatarUrl="https://www.gravatar.com/avatar?d=identicon"
+  //   lobTitle="Dev Engineer"
+  //   twitter="@victorgame_"
+  // />, 
+  container);
