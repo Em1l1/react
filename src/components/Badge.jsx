@@ -7,7 +7,7 @@ import confLogo from '../images/badge-header.svg'
 class Badge extends React.Component {
   render () {
     return (
-  
+
 
       <div className="Badge">
         <div className="Badge__header">
@@ -20,8 +20,8 @@ class Badge extends React.Component {
         </div>
 
         <div className="Badge__section-info">
-          <h3>Frontend Engineer</h3>
-          <div>@victorgame_</div>
+          <h3>{this.props.jobTitle}</h3>
+          <div>{this.props.twitter}</div>
         </div>
 
         <div className="Badge__footer">

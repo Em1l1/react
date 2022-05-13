@@ -4,17 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
 // import Badge from './components/Badge';
-import BadgeNew from './pages/BadgeNew';
+
+import App from './components/App';
 
 const container = document.getElementById('app');
-ReactDOM.render(
-  <BadgeNew />,
-  // <Badge
-  //
-  //   firstName="Victor"
-  //   lastName="Juarez"
-  //   avatarUrl="https://www.gravatar.com/avatar?d=identicon"
-  //   lobTitle="Dev Engineer"
-  //   twitter="@victorgame_"
-  // />, 
-  container);
+ReactDOM.render(<App />, container);
